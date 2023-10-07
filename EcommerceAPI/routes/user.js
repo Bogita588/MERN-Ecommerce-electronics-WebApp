@@ -3,9 +3,9 @@ router.get('/usertest', (req,res) => {
     res.send("User test succeeded");
 });
 
-router.get('/userpost', (req,res) => {
+router.post('/userpost', (req,res) => {
 
     const username =req.body.username;
-    res.send("User test succeeded" + username);
+    console.log (username);
 });
 module.exports = router;

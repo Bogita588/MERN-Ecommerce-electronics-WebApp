@@ -21,7 +21,7 @@ mongoose
 
   app.use(express.json());
   app.use("/api/verify", verifyRoute);
-  app.use("/api/user", userRoute);
+  app.use("/api/users", userRoute);
   
   
   
